@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">UDACITY</string>
+    <string name="text_name">What do you want to learn today? What\'s your dream job? Discover the program that's right for you!</string>
+    <string name="text_phone">650–555–5555</string>
+    <string name="text_web">www.udacity.com</string>
+    <string name="text_address">2465 Latham St, Mountain View, CA 94043 \nMonday - Friday 9 AM to 5 PM</string>
+    <string name="descr">android</string>
+</resources>

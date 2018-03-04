@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context="com.example.android.helloandroid.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/androidGreen">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/descr"
+            android:paddingTop="@dimen/paddingLarge"
+            android:scaleType="centerInside"
+            android:src="@drawable/udacity3" />
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/image"
+            android:fontFamily="serif"
+            android:paddingLeft="@dimen/paddingMedium"
+            android:paddingStart="@dimen/paddingMedium"
+            android:paddingTop="@dimen/paddingMedium"
+            android:text="@string/text_name"
+            android:textAlignment="gravity"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textSizeS"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/text1"
+            android:autoLink="phone"
+            android:drawableLeft="@drawable/ic_call_black_24dp"
+            android:drawablePadding="@dimen/paddingSmall"
+            android:drawableStart="@drawable/ic_call_black_24dp"
+            android:drawableTint="@color/white"
+            android:paddingLeft="@dimen/paddingMedium"
+            android:paddingStart="@dimen/paddingMedium"
+            android:paddingTop="@dimen/paddingMedium"
+            android:text="@string/text_phone"
+            android:textColor="@color/white"
+            android:textColorLink="@color/white"
+            android:textSize="@dimen/textSize" />
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/text2"
+            android:autoLink="web"
+            android:drawableLeft="@drawable/ic_public_black_24dp"
+            android:drawablePadding="@dimen/paddingSmall"
+            android:drawableStart="@drawable/ic_public_black_24dp"
+            android:drawableTint="@color/white"
+            android:paddingLeft="@dimen/paddingMedium"
+            android:paddingStart="@dimen/paddingMedium"
+            android:paddingTop="@dimen/paddingMedium"
+            android:text="@string/text_web"
+            android:textColor="@color/white"
+            android:textColorLink="@color/white"
+            android:textSize="@dimen/textSize" />
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/text3"
+            android:autoLink="map"
+            android:drawableLeft="@drawable/ic_room_black_24dp"
+            android:drawablePadding="@dimen/paddingSmall"
+            android:drawableStart="@drawable/ic_room_black_24dp"
+            android:drawableTint="@color/white"
+            android:paddingBottom="@dimen/paddingMedium"
+            android:paddingEnd="@dimen/paddingMedium"
+            android:paddingStart="@dimen/paddingMedium"
+            android:paddingTop="@dimen/paddingMedium"
+            android:text="@string/text_address"
+            android:textColor="@color/white"
+            android:textColorLink="@color/white"
+            android:textSize="@dimen/textSize" />
+
+    </RelativeLayout>
+</ScrollView>
